@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2018-05-16T20:15:05</created>
+    <modified>2018-05-16T20:15:05</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="t003_png" name="t003_png">
+      <init_from>t003.png</init_from>
+    </image>
+    <image id="t006_png" name="t006_png">
+      <init_from>t006.png</init_from>
+    </image>
+    <image id="t008_png" name="t008_png">
+      <init_from>t008.png</init_from>
+    </image>
+    <image id="t007_png" name="t007_png">
+      <init_from>t007.png</init_from>
+    </image>
+    <image id="t009_png" name="t009_png">
+      <init_from>t009.png</init_from>
+    </image>
+    <image id="t011_png" name="t011_png">
+      <init_from>t011.png</init_from>
+    </image>
+    <image id="t010_png" name="t010_png">
+      <init_from>t010.png</init_from>
+    </image>
+    <image id="t013_png" name="t013_png">
+      <init_from>t013.png</init_from>
+    </image>
+    <image id="t014_png" name="t014_png">
+      <init_from>t014.png</init_from>
+    </image>
+    <image id="t012_png" name="t012_png">
+      <init_from>t012.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Walls-effect">
+      <profile_COMMON>
+        <newparam sid="t003_png-surface">
+          <surface type="2D">
+            <init_from>t003_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t003_png-sampler">
+          <sampler2D>
+            <source>t003_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t003_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t003_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Floor-effect">
+      <profile_COMMON>
+        <newparam sid="t006_png-surface">
+          <surface type="2D">
+            <init_from>t006_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t006_png-sampler">
+          <sampler2D>
+            <source>t006_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t006_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t006_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Ceiing-effect">
+      <profile_COMMON>
+        <newparam sid="t006_png-surface">
+          <surface type="2D">
+            <init_from>t006_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t006_png-sampler">
+          <sampler2D>
+            <source>t006_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t006_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t006_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Winfows-effect">
+      <profile_COMMON>
+        <newparam sid="t008_png-surface">
+          <surface type="2D">
+            <init_from>t008_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t008_png-sampler">
+          <sampler2D>
+            <source>t008_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t008_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t008_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Furnishings-effect">
+      <profile_COMMON>
+        <newparam sid="t007_png-surface">
+          <surface type="2D">
+            <init_from>t007_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t007_png-sampler">
+          <sampler2D>
+            <source>t007_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t007_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t007_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Desk-effect">
+      <profile_COMMON>
+        <newparam sid="t009_png-surface">
+          <surface type="2D">
+            <init_from>t009_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t009_png-sampler">
+          <sampler2D>
+            <source>t009_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t009_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t009_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Desktop-effect">
+      <profile_COMMON>
+        <newparam sid="t011_png-surface">
+          <surface type="2D">
+            <init_from>t011_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t011_png-sampler">
+          <sampler2D>
+            <source>t011_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t011_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t011_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Chair-effect">
+      <profile_COMMON>
+        <newparam sid="t010_png-surface">
+          <surface type="2D">
+            <init_from>t010_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t010_png-sampler">
+          <sampler2D>
+            <source>t010_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t010_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t010_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Floor_Tiling-effect">
+      <profile_COMMON>
+        <newparam sid="t013_png-surface">
+          <surface type="2D">
+            <init_from>t013_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t013_png-sampler">
+          <sampler2D>
+            <source>t013_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t013_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t013_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Ceiling_Tiling-effect">
+      <profile_COMMON>
+        <newparam sid="t014_png-surface">
+          <surface type="2D">
+            <init_from>t014_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t014_png-sampler">
+          <sampler2D>
+            <source>t014_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t014_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t014_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sunlight-effect">
+      <profile_COMMON>
+        <newparam sid="t012_png-surface">
+          <surface type="2D">
+            <init_from>t012_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="t012_png-sampler">
+          <sampler2D>
+            <source>t012_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="t012_png-sampler"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <texture texture="t012_png-sampler"/>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Walls-material" name="Walls">
+      <instance_effect url="#Walls-effect"/>
+    </material>
+    <material id="Floor-material" name="Floor">
+      <instance_effect url="#Floor-effect"/>
+    </material>
+    <material id="Ceiing-material" name="Ceiing">
+      <instance_effect url="#Ceiing-effect"/>
+    </material>
+    <material id="Winfows-material" name="Winfows">
+      <instance_effect url="#Winfows-effect"/>
+    </material>
+    <material id="Furnishings-material" name="Furnishings">
+      <instance_effect url="#Furnishings-effect"/>
+    </material>
+    <material id="Desk-material" name="Desk">
+      <instance_effect url="#Desk-effect"/>
+    </material>
+    <material id="Desktop-material" name="Desktop">
+      <instance_effect url="#Desktop-effect"/>
+    </material>
+    <material id="Chair-material" name="Chair">
+      <instance_effect url="#Chair-effect"/>
+    </material>
+    <material id="Floor_Tiling-material" name="Floor_Tiling">
+      <instance_effect url="#Floor_Tiling-effect"/>
+    </material>
+    <material id="Ceiling_Tiling-material" name="Ceiling_Tiling">
+      <instance_effect url="#Ceiling_Tiling-effect"/>
+    </material>
+    <material id="Sunlight-material" name="Sunlight">
+      <instance_effect url="#Sunlight-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="空のオフィス_002-mesh" name="空のオフィス.002">
+      <mesh>
+        <source id="空のオフィス_002-mesh-positions">
+          <float_array id="空のオフィス_002-mesh-positions-array" count="90">-3.19481e-5 1.156466 -0.05189812 -3.19481e-5 -1.015664 -0.05189907 -3.19481e-5 1.156466 -0.2289551 -3.19481e-5 -1.015664 -0.2289551 -3.19481e-5 1.156466 1.963875 -3.19481e-5 -1.015665 1.963875 -3.19481e-5 1.156466 -0.05189812 -3.19481e-5 -1.015664 -0.05189907 0.02841711 1.306617 -1.911216 0.02841711 1.306615 2.186879 -3.19481e-5 1.306617 -1.911216 -3.19481e-5 1.306615 2.186878 -3.19481e-5 1.156466 -0.05189812 -3.19481e-5 1.156466 -0.2289551 -3.19481e-5 1.156466 -1.596061 -3.19481e-5 -1.156905 -1.911216 -3.19481e-5 -1.015664 -1.596061 -3.19481e-5 -1.015664 -0.2289551 -3.19481e-5 -1.015664 -0.05189907 -3.19481e-5 -1.015665 1.963875 -3.19481e-5 -1.156906 2.186878 -3.19481e-5 1.156466 1.963875 -3.19481e-5 1.156466 -0.2289551 -3.19481e-5 -1.015664 -0.2289551 -3.19481e-5 1.156466 -1.596061 -3.19481e-5 -1.015664 -1.596061 -0.01410484 -1.045554 -0.3556621 -0.01410484 -1.045554 0.0491029 -0.01392602 -1.114782 -0.3556621 -0.01392507 -1.114782 0.0491029</float_array>
+          <technique_common>
+            <accessor source="#空のオフィス_002-mesh-positions-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="空のオフィス_002-mesh-normals">
+          <float_array id="空のオフィス_002-mesh-normals-array" count="24">-1 0 0 -1 0 0 -0.7071068 0.7071068 0 0 1 0 -0.7070915 0.707122 0 -1 0 0 -0.9999967 -0.002582907 0 -0.9999967 -0.002596676 2.356e-6</float_array>
+          <technique_common>
+            <accessor source="#空のオフィス_002-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="空のオフィス_002-mesh-map-0">
+          <float_array id="空のオフィス_002-mesh-map-0-array" count="132">0.21039 0.34351 0.02766996 0.33061 0.21039 0.33061 0.02766996 0.33061 0.21039 0.34351 0.02766996 0.34351 0.75924 0.42409 0.72816 0.3956601 0.75924 0.3956601 0.72816 0.3956601 0.75924 0.42409 0.72816 0.42409 0.22277 0.4861 0.22277 0.1409199 0.22277 0.4861 0.22277 0.1409199 0.22277 0.4861 0.22277 0.1409199 0.22277 0.1409199 0.22277 0.4861 0.21312 0.3295 0.21312 0.3295 0.22277 0.4861 0.21312 0.34441 0.21312 0.34441 0.22277 0.4861 0.21312 0.4613201 0.01585996 0.4861 0.21312 0.4613201 0.22277 0.4861 0.21312 0.4613201 0.01585996 0.4861 0.02517998 0.4613201 0.02517998 0.4613201 0.01585996 0.4861 0.02517998 0.34441 0.02517998 0.34441 0.01585996 0.4861 0.02517998 0.3295 0.02517998 0.3295 0.01585996 0.4861 0.02517998 0.15768 0.01585996 0.1409199 0.02517998 0.15768 0.01585996 0.4861 0.22277 0.1409199 0.02517998 0.15768 0.01585996 0.1409199 0.02517998 0.15768 0.22277 0.1409199 0.21312 0.15768 0.21312 0.3295 0.21312 0.15768 0.22277 0.1409199 0.2106299 0.45858 0.02767992 0.34623 0.2106299 0.34623 0.02767992 0.34623 0.2106299 0.45858 0.02767992 0.45858 0.55606 0.94792 0.53313 0.77588 0.53313 0.94792 0.53313 0.77588 0.55606 0.94792 0.55606 0.77588</float_array>
+          <technique_common>
+            <accessor source="#空のオフィス_002-mesh-map-0-array" count="66" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="空のオフィス_002-mesh-vertices">
+          <input semantic="POSITION" source="#空のオフィス_002-mesh-positions"/>
+        </vertices>
+        <triangles material="Winfows-material" count="20">
+          <input semantic="VERTEX" source="#空のオフィス_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#空のオフィス_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#空のオフィス_002-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 0 1 0 0 2 1 0 3 2 0 4 3 0 5 6 0 6 5 0 7 4 0 8 5 1 9 6 1 10 7 1 11 10 2 12 9 3 13 8 3 14 9 3 15 10 2 16 11 4 17 11 4 18 10 2 19 12 0 20 12 0 21 10 2 22 13 0 23 13 0 24 10 2 25 14 0 26 15 0 27 14 0 28 10 2 29 14 0 30 15 0 31 16 0 32 16 0 33 15 0 34 17 0 35 17 0 36 15 0 37 18 0 38 18 0 39 15 0 40 19 0 41 20 0 42 19 0 43 15 0 44 11 4 45 19 0 46 20 0 47 19 0 48 11 4 49 21 0 50 12 0 51 21 0 52 11 4 53 24 0 54 23 0 55 22 0 56 23 5 57 24 5 58 25 5 59</p>
+        </triangles>
+        <triangles material="Desktop-material" count="2">
+          <input semantic="VERTEX" source="#空のオフィス_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#空のオフィス_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#空のオフィス_002-mesh-map-0" offset="2" set="0"/>
+          <p>28 6 60 27 6 61 26 6 62 27 7 63 28 7 64 29 7 65</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="空のオフィス_mesh_002-morph" name="空のオフィス_mesh.002-morph">
+      <morph source="#空のオフィス_002-mesh" method="NORMALIZED">
+        <source id="空のオフィス_mesh_002-targets">
+          <IDREF_array id="空のオフィス_mesh_002-targets-array" count="0"/>
+          <technique_common>
+            <accessor source="#空のオフィス_mesh_002-targets-array" count="0" stride="1">
+              <param name="IDREF" type="IDREF"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="空のオフィス_mesh_002-weights">
+          <float_array id="空のオフィス_mesh_002-weights-array" count="0"/>
+          <technique_common>
+            <accessor source="#空のオフィス_mesh_002-weights-array" count="0" stride="1">
+              <param name="MORPH_WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <targets>
+          <input semantic="MORPH_TARGET" source="#空のオフィス_mesh_002-targets"/>
+          <input semantic="MORPH_WEIGHT" source="#空のオフィス_mesh_002-weights"/>
+        </targets>
+      </morph>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="空のオフィス_mesh_002" name="空のオフィス_mesh_002" type="NODE">
+        <matrix sid="transform">-4.37114e-8 -1 0 1.313276 1 -4.37114e-8 0 -0.01662212 0 0 1 1.90644 0 0 0 1</matrix>
+        <instance_geometry url="#空のオフィス_002-mesh" name="空のオフィス_mesh_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Walls-material" target="#Walls-material"/>
+              <instance_material symbol="Floor-material" target="#Floor-material"/>
+              <instance_material symbol="Ceiing-material" target="#Ceiing-material"/>
+              <instance_material symbol="Winfows-material" target="#Winfows-material"/>
+              <instance_material symbol="Furnishings-material" target="#Furnishings-material"/>
+              <instance_material symbol="Desk-material" target="#Desk-material"/>
+              <instance_material symbol="Desktop-material" target="#Desktop-material"/>
+              <instance_material symbol="Chair-material" target="#Chair-material"/>
+              <instance_material symbol="Floor_Tiling-material" target="#Floor_Tiling-material"/>
+              <instance_material symbol="Ceiling_Tiling-material" target="#Ceiling_Tiling-material"/>
+              <instance_material symbol="Sunlight-material" target="#Sunlight-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

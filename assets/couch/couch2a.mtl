@@ -1,0 +1,91 @@
+# File produced by AccuTrans 3D
+
+newmtl Object_001
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2a.jpg
+
+newmtl Object_001_1
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2h.jpg
+
+newmtl Object_001_2
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2f.jpg
+
+newmtl Object_001_3
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2j.jpg
+
+newmtl Object_001_4
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2b.jpg
+
+newmtl Object_001_5
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2c.jpg
+
+newmtl Object_001_6
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2d.jpg
+
+newmtl Object_001_7
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch1i.jpg
+
+newmtl Object_001_8
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2f2.jpg
+
+newmtl Object_001_9
+  Ns 1.0
+  d 1.0
+  illum 2
+  Kd 0.2438 0.2438 0.2438
+  Ka 0.4063 0.4063 0.4063
+  Ks 0 0 0
+  map_Kd couch2e2.jpg
